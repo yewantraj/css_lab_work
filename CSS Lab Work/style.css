@@ -12,7 +12,7 @@ body {
 
 /* Header */
 #header {
-    background-color: #bde7bc;
+    background-color: #173117;
     color: #686363;
     padding: 1rem;
     text-align: center;
@@ -98,21 +98,30 @@ p {
     font-style: italic;
 }
 
+.item-list{
+    display: block;
+}
 /* List Items in Main Content */
 .item-list li {
-    display: block;
+    display: flex;
     margin-bottom: 10px;
     background-color: #9859e6;
     padding: 5px;
     border-radius: 10px;
     width: 110px;
+    align-items: center;
+    justify-content: center;
 }
 
 .item-list li img {
     width: 20px;
-    height: auto;
-    padding-top: 2px;
-    padding-right: 4px;
+    /* height: auto; */
+    /* padding-top: 2px;
+    /* padding-right: 4px; */ 
+}
+
+.item-list li p {
+    padding-left: 4px; 
 }
 
 .item-list a {
