@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+}
+
+/* Header */
+#header {
+    background-color: #bde7bc;
+    color: #686363;
+    padding: 1rem;
+    text-align: center;
+}
+
+#header h1 {
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#nav-menu {
+    list-style: none;
+    padding: 0;
+}
+
+#nav-menu li {
+    display: inline;
+    margin: 0 10px;
+}
+
+#nav-menu li a:hover {
+    color: #ffeb3b;
+}
+
+#nav-menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Container for main content and sidebar */
+#container {
+    display: flex;
+    margin: 10px;
+}
+
+/* Sidebar */
+#sidebar {
+    width: 25%;
+    background-color: #b4eaf3;
+    padding: 15px;
+}
+
+/* Main Content */
+#main-content {
+    width: 75%;
+    padding: 15px;
+    background-image: url('images/bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #fefefd;
+}
+
+#main-content .gbc {
+    text-decoration: none;
+    color: #fbfbfb;
+    font-style: italic;
+}
+
+/* Text and Fonts */
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+#highlighted {
+    background-color: #ffeb3b;
+    color: #000000;
+    padding: 10px;
+    border-radius: 5px;
+    font-style: italic;
+}
+
+/* List Items in Main Content */
+.item-list li {
+    display: block;
+    margin-bottom: 10px;
+    background-color: #9859e6;
+    padding: 5px;
+    border-radius: 10px;
+    width: 110px;
+}
+
+.item-list li img {
+    width: 20px;
+    height: auto;
+    padding-top: 2px;
+    padding-right: 4px;
+}
+
+.item-list a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.item-list li:hover {
+    color: #a3e0d9;
+    background-color: #0077B5
+}
+
+/* Button */
+.action-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #9859e6;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.action-btn:hover {
+    background-color: #a3e0d9;
+    color: #000000;
+}
+
+.action-btn:active {
+    background-color: #003d7a;
+}
+
+/* Footer */
+#footer {
+    background-color: #bde7bc;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-family: "Beiruti", sans-serif;
+    font-style: normal;
+}
